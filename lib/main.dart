@@ -124,7 +124,7 @@ class UserListPageState extends State<UserListPage> {
               controller: _phoneController,
               decoration: const InputDecoration(labelText: 'Phone Number'),
             ),
-            ElevatedButton(onPressed:_saveUser, child: const Text('Submit')),
+            ElevatedButton(onPressed:_saveUser, child: const Text('Sub')),
             Expanded(
               child: ListView.builder(
                 itemCount: _users.length,
